@@ -119,3 +119,7 @@ or use the automated deploy feature:
 For more information about using Python on Heroku, see these Dev Center articles:
 
  - [Python on Heroku](https://devcenter.heroku.com/categories/python)
+
+## Build Status
+
+![CI-CD](https://github.com/YOUR_USERNAME/YOUR_REPO/actions/workflows/ci.yml/badge.svg)
