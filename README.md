@@ -123,3 +123,17 @@ For more information about using Python on Heroku, see these Dev Center articles
 ## Build Status
 
 ![CI-CD](https://github.com/YOUR_USERNAME/YOUR_REPO/actions/workflows/ci.yml/badge.svg)
+
+## Notifications
+
+This repository uses automated email notifications via GitHub Actions.
+
+Notifications are sent when:
+- CI build completes
+- CD deployment completes
+
+Email includes:
+- Build status
+- Branch
+- Commit SHA
+- Link to logs
