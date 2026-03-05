@@ -1,3 +1,5 @@
+[![CodeQL](https://github.com/AlanaSahaidak/ci-cd-tutorial-sample-app/actions/workflows/codeql-analysis.yml/badge.svg?branch=master)](https://github.com/AlanaSahaidak/ci-cd-tutorial-sample-app/actions/workflows/codeql-analysis.yml)
+
 # CD/CI Tutorial Sample Application ⚙
 
 **NOTE:** This code was written for an
@@ -119,21 +121,3 @@ or use the automated deploy feature:
 For more information about using Python on Heroku, see these Dev Center articles:
 
  - [Python on Heroku](https://devcenter.heroku.com/categories/python)
-
-## Build Status
-
-![CI-CD](https://github.com/YOUR_USERNAME/YOUR_REPO/actions/workflows/ci.yml/badge.svg)
-
-## Notifications
-
-This repository uses automated email notifications via GitHub Actions.
-
-Notifications are sent when:
-- CI build completes
-- CD deployment completes
-
-Email includes:
-- Build status
-- Branch
-- Commit SHA
-- Link to logs
