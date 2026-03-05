@@ -1,10 +1,16 @@
-[![CodeQL](https://github.com/AlanaSahaidak/ci-cd-tutorial-sample-app/actions/workflows/codeql-analysis.yml/badge.svg?branch=master)](https://github.com/AlanaSahaidak/ci-cd-tutorial-sample-app/actions/workflows/codeql-analysis.yml)
-
 # CD/CI Tutorial Sample Application ⚙
 
 **NOTE:** This code was written for an
 [article](https://medium.com/rockedscience/docker-ci-cd-pipeline-with-github-actions-6d4cd1731030)
 in the **RockedScience** publication on Medium.
+
+## Badges
+
+[![CI Pipeline](https://github.com/AlanaSahaidak/ci-cd-tutorial-sample-app/actions/workflows/ci.yml/badge.svg)](https://github.com/AlanaSahaidak/ci-cd-tutorial-sample-app/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/AlanaSahaidak/ci-cd-tutorial-sample-app/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/AlanaSahaidak/ci-cd-tutorial-sample-app/actions/workflows/codeql-analysis.yml)
+![Python](https://img.shields.io/badge/python-3.8-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Platform](https://img.shields.io/badge/platform-Linux-lightgrey)
 
 ## Description
 
