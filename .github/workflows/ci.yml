@@ -47,11 +47,17 @@ jobs:
           server_port: 587
           username: ${{ secrets.EMAIL_USERNAME }}
           password: ${{ secrets.EMAIL_PASSWORD }}
-          subject: ${{ job.status == 'success' && '✅ SUCCESS' || '❌ FAILURE' }} - CI/CD Pipeline
+          subject: ${{ needs.build.result == 'success' && '✅ SUCCESS' || '❌ FAILURE' }} - CI/CD Pipeline
           body: |
-            Pipeline Status: ${{ job.status }}
+            Build Status: ${{ needs.build.result }}
+            Deploy Status: ${{ needs.deploy.result }}
+
             Repository: ${{ github.repository }}
             Branch: ${{ github.ref_name }}
             Commit: ${{ github.sha }}
+
+            Logs:
+            https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
           to: ${{ secrets.EMAIL_TO }}
           from: CI/CD Bot
